@@ -6,7 +6,7 @@
 
 2）请根据Pixhark官网配置所需要环境
 
-3）请源码安装mavros，mavlink,然后删除mavros、mavlink文件夹。此步骤的目的是安装
+3）请源码安装mavros，mavlink,然后删除mavros、mavlink文件夹。此步骤的目的是安装mavros、mavlink的一些依赖，给出的源码中有修改过的mavros、mavlink文件夹，因此安装完成后需要删除这两个文件夹
 
 # 2、下载源码编译
 git clone git@github.com:Tianxing-Chen/fault_tolerant_control.git
@@ -41,7 +41,7 @@ roscd ftc_ctrl && cd scripts
 
 ./start_rotors.sh hummingbird
 
-单翼失效下运行
+单翼失效下飞行
 
 ./stop_rotor.sh hummingbird
 
