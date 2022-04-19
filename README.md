@@ -45,3 +45,6 @@ roscd ftc_ctrl && cd scripts
 
 ./stop_rotor.sh hummingbird
 
+# 注意事项
+在Gazebo运行PX4的情况下，打开QGC，确认MC_FTC_MODE参数是否为1
+
